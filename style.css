@@ -80,7 +80,7 @@ header{
     font-weight: 600;
     line-height: 3.8rem;
 }
-.hero .content h2 span{
+.hero .content h2 span::after{
     content: '';
     color: var(--active-color);
     animation: changetext 12s infinite linear;
