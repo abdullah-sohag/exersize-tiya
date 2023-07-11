@@ -81,7 +81,14 @@ header{
     line-height: 3.8rem;
 }
 .hero .content h2 span{
+    content: '';
     color: var(--active-color);
+    animation: changetext 12s infinite linear;
+}
+@keyframes changetext{
+    0%{content: 'Creative';}
+    50%{content: 'Inovative';}
+    100%{content: 'Good';}
 }
 .hero .content .btn-content button{
     color: var(--secondary-color);
